@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F61805E285934A700118D0F /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61805C285934A700118D0F /* CoinTableViewCell.swift */; };
+		0F61805F285934A700118D0F /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F61805D285934A700118D0F /* CoinTableViewCell.xib */; };
 		B444CB5228551D3C0064FC9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444CB5128551D3C0064FC9A /* APIService.swift */; };
 		B444CB5428551D5F0064FC9A /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444CB5328551D5F0064FC9A /* HomeService.swift */; };
 		B444CB5628551DD90064FC9A /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444CB5528551DD90064FC9A /* Exchange.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F61805C285934A700118D0F /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		0F61805D285934A700118D0F /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
 		B444CB5128551D3C0064FC9A /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		B444CB5328551D5F0064FC9A /* HomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		B444CB5528551DD90064FC9A /* Exchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				B4C9158928566A6500DFFA2C /* HomeViewController.swift */,
 				B4C9158A28566A6500DFFA2C /* HomeViewController.xib */,
+				0F61805C285934A700118D0F /* CoinTableViewCell.swift */,
+				0F61805D285934A700118D0F /* CoinTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 			files = (
 				B481B4EB285140A800E4DE94 /* LaunchScreen.storyboard in Resources */,
 				B481B4E8285140A800E4DE94 /* Assets.xcassets in Resources */,
+				0F61805F285934A700118D0F /* CoinTableViewCell.xib in Resources */,
 				B4C9158C28566A6500DFFA2C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 				B481B4E1285140A600E4DE94 /* SceneDelegate.swift in Sources */,
 				B444CB5F285524E00064FC9A /* Error.swift in Sources */,
 				B444CB5428551D5F0064FC9A /* HomeService.swift in Sources */,
+				0F61805E285934A700118D0F /* CoinTableViewCell.swift in Sources */,
 				B4C91584285661D400DFFA2C /* Strings.swift in Sources */,
 				B4C9158B28566A6500DFFA2C /* HomeViewController.swift in Sources */,
 				B444CB64285531990064FC9A /* AssetModel.swift in Sources */,
@@ -420,6 +428,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
